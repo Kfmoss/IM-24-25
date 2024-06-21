@@ -1,5 +1,5 @@
 
-@media only screen and (max-width:430px){
+@media only screen and (max-width:415px){
     body{
         font-family: "Monserrat", sans-serif;
         padding: 0.5rem;
@@ -47,17 +47,22 @@
         position:absolute;
         list-style: none;
         background-color: rgb(212, 83, 44);
-
-        width: 7em;
+        width: 5em;
         height: auto;
         aspect-ratio: 1/1;
-        margin-right: 13rem;
-        padding: 1rem;
+        padding-top: 1rem;
+        box-shadow: 0 0 10px rgba(0,0,0,0.4);
+        width: 80%;
+        left: 2em;
+        top: 4em;
+     
     }
     .main_header #logo #block_menu li{
         font-weight: 600;
         color: aliceblue;
         padding: 3rem;
+        margin-right: 5rem;
+        text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
