@@ -105,6 +105,17 @@
         grid-area: footer;
         background-color: rgb(33, 165, 218);
     }
+    .footer .media .links{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .footer .media .links img{
+        width: 10rem;
+        height: auto;
+    }
+   
     .p2{
         grid-area: p2;
         background-color: rgb(15, 184, 127);
