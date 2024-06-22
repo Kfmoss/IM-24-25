@@ -78,6 +78,28 @@
     .aside1{
         grid-area: aside1;
         background-color: rosybrown;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ 
+    }
+
+    .aside1 .aside_menu #oppgaver li a{
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aside1 .aside_menu #oppgaver li a:hover{
+        background-color: rgb(238, 236, 236);
+        color: black;
+    }
+
+    .aside1 .aside_menu #oppgaver{
+        list-style: none;
+
     }
     .footer{
         grid-area: footer;
