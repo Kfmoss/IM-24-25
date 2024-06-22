@@ -7,8 +7,8 @@
     }
     .grid_mainContainer{
         display: grid;
-        grid-template-columns: 1rf;
-        grid-template-rows: repeat(7, auto);
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(7,auto);
         grid-template-areas: 
         "main_header main_header"
         "aside1 p2"
@@ -17,7 +17,7 @@
         "footer footer";
     }
     .main_header{
-        grid-area:"main_header";
+        grid-area:main_header;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -36,7 +36,6 @@
     }
     #main_start input{
         border: olivedrab 2px solid;
-
 
     }
   
@@ -75,6 +74,26 @@
     .main_header #logo #block_menu li a:hover{
         background-color: rgb(238, 236, 236);
         color: black;
+    }
+    .aside1{
+        grid-area: aside1;
+        background-color: rosybrown;
+    }
+    .footer{
+        grid-area: footer;
+        background-color: rgb(33, 165, 218);
+    }
+    .p2{
+        grid-area: p2;
+        background-color: rgb(15, 184, 127);
+    }
+    .p3{
+        grid-area: p3;
+        background-color: rgb(100, 69, 134);
+    }
+    .p4{
+        grid-area: p4;
+        background-color: rgb(25, 207, 86);
     }
 
     
