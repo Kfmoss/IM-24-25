@@ -72,29 +72,51 @@
         color: white;
     }
     .main_header #logo #block_menu li a:hover{
-        background-color: rgb(238, 236, 236);
+        background-color: rgb(252, 250, 250);
         color: black;
     }
     .aside1{
         grid-area: aside1;
-        background-color: rosybrown;
+        background-color: #e4edf5;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+ 
+    }
+    .aside1 .aside_menu{
         display: flex;
         flex-direction: column;
         align-items: center;
- 
+        justify-content: center;
+        width: 100%;
+  
+    }
+    .aside1 .aside_menu #oppgaver{
+       text-align: center;
+       padding-right: 50%;
+       padding-left: 50%;
+    }
+    .aside1 .aside_menu #sites_lan{
+        padding-right: 50%;
+        padding-left: 50%;
+        text-align: center;
     }
 
     .aside1 .aside_menu #oppgaver li a{
         text-decoration: none;
         color: rgb(10, 10, 10);
-        /* padding: 1rem; */
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 1em;
     }
     .aside1 .aside_menu #oppgaver li a:hover{
-        background-color: rgb(238, 236, 236);
-        color: black;
+        background-color: rgb(73, 69, 69);
+        color: rgb(253, 250, 250);
+    }
+    .aside1 .aside_menu #sites_lan a:hover{
+        background-color: rgb(73, 69, 69);
+        color: rgb(253, 250, 250);
     }
 
     .aside1 .aside_menu #oppgaver{
@@ -107,15 +129,12 @@
     .aside1 .aside_menu #sites_lan a{
         text-decoration: none;
         color: rgb(10, 10, 10);
-        /* padding: 1rem; */
+        padding: 1em;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .aside1 .aside_menu #sites_lan li a:hover{
-        background-color: rgb(238, 236, 236);
-        color: black;
-    }
+ 
     .footer{
         grid-area: footer;
         background-color: rgb(33, 165, 218);
