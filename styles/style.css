@@ -10,11 +10,11 @@
         grid-template-columns: 1fr;
         grid-template-rows:repeat(7,auto);
         grid-template-areas: 
-        "main_header main_header"
-        "aside1 p2"
-        "aside1 p3"
-        "aside1 p4"
-        "footer footer";
+        "main_header main_header main_header"
+        "aside1 p2 p2"
+        "aside1 p3 p3"
+        "aside1 p4 p4"
+        "footer footer footer";
     }
     .main_header{
         grid-area:main_header;
@@ -86,8 +86,8 @@
 
     .aside1 .aside_menu #oppgaver li a{
         text-decoration: none;
-        color: white;
-        padding: 1rem;
+        color: rgb(10, 10, 10);
+        /* padding: 1rem; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -100,6 +100,21 @@
     .aside1 .aside_menu #oppgaver{
         list-style: none;
 
+    }
+    .aside1 .aside_menu #sites_lan{
+        list-style: none;
+    }
+    .aside1 .aside_menu #sites_lan a{
+        text-decoration: none;
+        color: rgb(10, 10, 10);
+        /* padding: 1rem; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aside1 .aside_menu #sites_lan li a:hover{
+        background-color: rgb(238, 236, 236);
+        color: black;
     }
     .footer{
         grid-area: footer;
