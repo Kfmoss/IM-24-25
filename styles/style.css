@@ -9,7 +9,7 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows:repeat(7,auto);
-        grid-template-areas: 
+        grid-template-areas:
         "main_header main_header main_header"
         "aside1 p2 p2"
         "aside1 p3 p3"
@@ -22,14 +22,14 @@
         align-items: center;
         justify-content: space-between;
         background-color: rgb(238, 236, 236);
-      
+
     }
     #main_start ul{
         display: flex;
         list-style: none;
         justify-content: space-between;
-   
-  
+
+
     }
     #main_start ul li{
         padding-left: 0.5rem;
@@ -38,7 +38,7 @@
         border: olivedrab 2px solid;
 
     }
-  
+
     .main_header #logo{
         padding-left: 1rem;
 
@@ -60,7 +60,7 @@
         aspect-ratio: 1;
         left: 6em;
         top: 4em;
-     
+
     }
     .main_header #logo #block_menu li a{
         font-weight: 600;
@@ -85,7 +85,7 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-  
+
     }
     .aside1 .aside_menu #oppgaver{
        text-align: center;
@@ -130,7 +130,7 @@
         justify-content: center;
         align-items: center;
     }
- 
+
     .footer{
         grid-area: footer;
         background-color: rgb(33, 165, 218);
@@ -143,7 +143,7 @@
     }
     .footer .media .links a{
         color:#ffff;
-        
+
     }
     .footer .media .links img{
         width: 10rem;
@@ -154,23 +154,33 @@
         justify-content: center;
         align-items: center;
         color:rgb(49, 48, 48);
- 
+
     }
-   
+
     .p2{
         grid-area: p2;
-        background-color: rgb(15, 184, 127);
+        position: relative;
+
+
+
+    }
+    .p2 .bkg-video{
+        
+        position: absolute;
+        width: 100%;
+        /* z-index: -1; */
     }
     .p3{
         grid-area: p3;
-        background-color: rgb(100, 69, 134);
+        background-color: rgb(247, 245, 248);
     }
+    
     .p4{
         grid-area: p4;
-        background-color: rgb(25, 207, 86);
+        background-color: rgb(247, 245, 248);
     }
 
-    
+
 
 
 }
