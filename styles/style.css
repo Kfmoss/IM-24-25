@@ -197,6 +197,71 @@
         text-align: center;
         font-size: 1.1rem;
     }
+    #oppgave1{
+        display: none;
+        z-index: 1;
+        position:absolute;
+        list-style: none;
+        background-color: rgb(121, 119, 119);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+        width: 50%;
+        height: auto;
+        aspect-ratio: 1;
+        left: 6em;
+        top: 4em;
+    }
+    #oppgave2{
+        display: none;
+        z-index: 1;
+        position:absolute;
+        list-style: none;
+        background-color: rgb(121, 119, 119);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+        width: 50%;
+        height: auto;
+        aspect-ratio: 1;
+        left: 6em;
+        top: 4em;
+    }
+    #oppgave3{
+        display: none;
+        z-index: 1;
+        position:absolute;
+        list-style: none;
+        background-color: rgb(121, 119, 119);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+        width: 50%;
+        height: auto;
+        aspect-ratio: 1;
+        left: 6em;
+        top: 4em;
+    }
+    #oppgave4{
+        display: none;
+        z-index: 1;
+        position:absolute;
+        list-style: none;
+        background-color: rgb(121, 119, 119);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+        width: 50%;
+        height: auto;
+        aspect-ratio: 1;
+        left: 6em;
+        top: 4em;
+    }
+    #oppgave5{
+        display: none;
+        z-index: 1;
+        position:absolute;
+        list-style: none;
+        background-color: rgb(121, 119, 119);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+        width: 50%;
+        height: auto;
+        aspect-ratio: 1;
+        left: 6em;
+        top: 4em;
+    }
 
 
 
