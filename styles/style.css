@@ -159,30 +159,43 @@
 
     .p2{
         grid-area: p2;
-       
-        
-       
-        
-
-
-
     }
     .p2 .bkg-video{
         
     
         display: flexbox;
         width: 100%;
+        align-content: center;
+        justify-content: center;
 
         /* z-index: -1; */
     }
     .p3{
         grid-area: p3;
-        background-color: rgb(247, 245, 248);
+        background-color:#ffff;
+        display: flexbox;
+        justify-content: center;
+    }
+    .p3 p{
+        text-align: center;
+        font-size: 1.1rem;
+
+    
     }
     
     .p4{
         grid-area: p4;
-        background-color: rgb(247, 245, 248);
+        background-color: #ffff;
+        display: flexbox;
+    }
+    .p4 .art4{
+        padding: .2rem;
+        background-color: aqua;
+
+    }
+    .p4 .art4 p{
+        text-align: center;
+        font-size: 1.1rem;
     }
 
 
