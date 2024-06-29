@@ -159,15 +159,20 @@
 
     .p2{
         grid-area: p2;
-        position: relative;
+       
+        
+       
+        
 
 
 
     }
     .p2 .bkg-video{
+        
+    
         display: flexbox;
-        position: absolute;
         width: 100%;
+
         /* z-index: -1; */
     }
     .p3{
