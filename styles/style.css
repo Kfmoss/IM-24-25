@@ -204,18 +204,19 @@
         list-style: none;
         background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
-        width: 45%;
+        width: 47%;
         left: 9em;
         top: 4em;
         border-radius: 10px;
+    }
+    #oppgave1 li{
+        padding: 0.4rem;
     }
     #oppgave1 li a{
         text-decoration: none;
         color:rgb(250, 249, 249);
         font-weight: 400;
         font-size: 1.2rem;
-        
-        
     }
     #oppgave1 li a:hover{
         
