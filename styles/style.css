@@ -202,44 +202,44 @@
         z-index: 1;
         position:absolute;
         list-style: none;
-        background-color: rgba(253, 254, 255, 0.9);
+        background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
-        width: 50%;
+        width: 45%;
         left: 9em;
         top: 4em;
-        border-radius: 10%;
+        border-radius: 10px;
     }
     #oppgave1 li a{
         text-decoration: none;
-        color:rgb(5, 5, 5);
+        color:rgb(250, 249, 249);
         font-weight: 400;
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         
         
     }
     #oppgave1 li a:hover{
         
-        transition-delay: 0.2s;
-        background-color: rgb(7, 7, 7);
-        color:rgb(252, 251, 251);
-       
-        color:#ffff;
+        
+        background-color: rgb(250, 248, 248);
+        color:rgb(3, 3, 3);
     }
     #oppgave2{
         display: none;
         z-index: 1;
         position:absolute;
         list-style: none;
-        background-color: rgba(253, 254, 255, 0.9);
+        background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
-        width: 50%;
+        width: 45%;
         left: 9em;
         top: 7.5em;
+        border-radius: 10px;
     }
     #oppgave2 li a{
         text-decoration: none;
         color:rgb(12, 12, 12);
-        font-weight: 600;
+        font-weight: 400;
+        font-size: 1.7rem;
     }
     #oppgave2 li a:hover{
         background-color: rgb(19, 59, 236);
