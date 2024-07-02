@@ -206,7 +206,7 @@
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
         width: 47%;
         left: 9em;
-        top: 4em;
+        top: 24em;
         border-radius: 10px;
     }
     #oppgave1 li{
@@ -233,7 +233,7 @@
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
         width: 45%;
         left: 9em;
-        top: 7.5em;
+        top: 24em;
         border-radius: 10px;
     }
     #oppgave2 li a{
@@ -255,7 +255,7 @@
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
         width: 50%;
         left: 9em;
-        top: 10em;
+        top: 24em;
     }
     #oppgave3 li a{
         text-decoration: none;
@@ -275,7 +275,7 @@
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
         width: 50%;
         left: 9em;
-        top: 13.5em;
+        top: 24em;
     }
     #oppgave4 li a{
         text-decoration: none;
@@ -295,7 +295,7 @@
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
         width: 50%;
         left: 9em;
-        top: 17em;
+        top: 24em;
     }
     #oppgave5 li a{
         text-decoration: none;
