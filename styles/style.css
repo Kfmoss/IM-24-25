@@ -56,11 +56,8 @@
         background-color: rgb(121, 119, 119);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
         width: 50%;
-        height: auto;
-        aspect-ratio: 1;
-        left: 6em;
-        top: 4em;
-
+        left: 9em;
+        top: 3.2em;
     }
     .main_header #logo #block_menu li a{
         font-weight: 600;
@@ -238,9 +235,9 @@
     }
     #oppgave2 li a{
         text-decoration: none;
-        color:rgb(12, 12, 12);
+        color:rgb(250, 249, 249);
         font-weight: 400;
-        font-size: 1.7rem;
+        font-size: 1.2rem;
     }
     #oppgave2 li a:hover{
         background-color: rgb(19, 59, 236);
@@ -251,16 +248,19 @@
         z-index: 1;
         position:absolute;
         list-style: none;
-        background-color: rgba(253, 254, 255, 0.9);
+        background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
-        width: 50%;
+        width: 45%;
         left: 9em;
         top: 24em;
+        border-radius: 10px;
+
     }
     #oppgave3 li a{
         text-decoration: none;
-        color:rgb(12, 12, 12);
-        font-weight: 600;
+        color:rgb(250, 249, 249);
+        font-weight: 400;
+        font-size: 1.2rem;
     }
     #oppgave3 li a:hover{
         background-color: rgb(19, 59, 236);
@@ -271,16 +271,20 @@
         z-index: 1;
         position:absolute;
         list-style: none;
-        background-color: rgba(253, 254, 255, 0.9);
+        background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
-        width: 50%;
+        width: 45%;
         left: 9em;
         top: 24em;
+        border-radius: 10px;
+
     }
     #oppgave4 li a{
         text-decoration: none;
-        color:rgb(12, 12, 12);
-        font-weight: 600;
+        color:rgb(250, 249, 249);
+        font-weight: 400;
+        font-size: 1.2rem;
+        
     }
     #oppgave4 li a:hover{
         background-color: rgb(19, 59, 236);
@@ -291,16 +295,19 @@
         z-index: 1;
         position:absolute;
         list-style: none;
-        background-color: rgba(253, 254, 255, 0.9);
+        background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
-        width: 50%;
+        width: 45%;
         left: 9em;
         top: 24em;
+        border-radius: 10px;
+
     }
     #oppgave5 li a{
         text-decoration: none;
-        color:rgb(12, 12, 12);
-        font-weight: 600;
+        color:rgb(250, 249, 249);
+        font-weight: 400;
+        font-size: 1.2rem;
     }
     #oppgave5 li a:hover{
         background-color: rgb(19, 59, 236);
