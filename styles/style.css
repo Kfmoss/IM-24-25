@@ -327,6 +327,7 @@
     }
     .header_imsk{
         grid-area:imsk_header;
+       
         
        
     }
@@ -349,6 +350,7 @@
     }
     .imsk-off-screen-menu ul{
         list-style: none;
+        list-style-type: none;
     }
     .imsk-off-screen-menu.active{
         right: 0;
@@ -365,7 +367,10 @@
 
     
     .menu_imsk{
-        background-color: aquamarine;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+
         
     }
     
@@ -416,23 +421,18 @@
         padding: 1.2rem;
 
     }
-    .imsk_footer_icons ul{
-        list-style: none;
+    .imsk_footer_icons{
         display: flex;
-        align-items: center;
         justify-content: center;
 
     }
-    .imsk_footer_icons ul li{
-        padding:0.3rem;
 
+    .imsk_footer_icons a{
+       color: #ffff;
+       padding: 0.5rem;
     }
-    .imsk_footer_icons ul li img{
-        width: 7rem;
-        height: auto;
-
-    }
-
+  
+ 
 
 
 
