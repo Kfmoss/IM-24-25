@@ -315,8 +315,7 @@
     }
     /* IM-skole mobile -------------------------------------------------------------- */
     .imskole-container{
-        padding: 0;
-        margin:0;
+
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3,auto);
@@ -359,9 +358,16 @@
     .imsk-off-screen-menu.active ul{
         list-style: none;
     }
+    .imskole_codeMe{
+        width: 50%;
+    }
+   
 
     
-    
+    .menu_imsk{
+        background-color: aquamarine;
+        
+    }
     
     .menu_imsk ul{
         list-style: none;
@@ -377,17 +383,26 @@
         justify-content: center;
     }
     .intro-IMskole{
-        margin: 0 15% 0 15%;
+        margin: 0 10% 0 10%;
         font-family: "Monserrat", sans-serif;
         font-size: 1.2rem;
         
     }
-  
+    .intro-IMskole h3, p{
+        text-align: center;
+    }
+    .imsk_body_img{
+        display: flex;
+        margin-right: 10%;
+        
+    }
+   
     .imsk_body_img ul{
         list-style: none;
+        display: flex;
+        flex-direction: column;
+ 
     }
-  
-    
     .imsk_body_img ul li img{
         width: 100%;
         height: auto;
