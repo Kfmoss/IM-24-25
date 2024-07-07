@@ -348,10 +348,20 @@
 
 
     }
+    .imsk-off-screen-menu ul{
+        list-style: none;
+    }
     .imsk-off-screen-menu.active{
         right: 0;
+        color: white;
 
     }
+    .imsk-off-screen-menu.active ul{
+        list-style: none;
+    }
+
+    
+    
     
     .menu_imsk ul{
         list-style: none;
