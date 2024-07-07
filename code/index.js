@@ -83,4 +83,27 @@ document.addEventListener('click',(e) =>{
 } )
 
 
+// const hamMenu_main = document.querySelector('.main_btnmenu');
+// const offscreenMenu_main = document.querySelector('.main-off-screen-menu');
 
+// hamMenu_main.addEventListener('click', () => {offscreenMenu_main.classList.toggle('active')});
+// document.addEventListener('click',(e) =>{
+//     if(!offscreenMenu_main.contains(e.target)  && !hamMenu_main.contains(e.target)){
+//         offscreenMenu_main.classList.remove('active');
+//     }
+// } )
+
+const hamMenu_main = document.querySelector('.main_btnmenu');
+const offscreenMenu_main = document.querySelector('.main-off-screen-menu');
+
+hamMenu_main.addEventListener('click', (e) => {
+    offscreenMenu_main.classList.toggle('active');
+    console.log('this please');
+    e.stopPropagation(); // Prevent click event from propagating to document
+});
+
+document.addEventListener('click', (e) => {
+    if (!offscreenMenu_main.contains(e.target) && !hamMenu_main.contains(e.target)) {
+        offscreenMenu_main.classList.remove('active');
+    }
+});

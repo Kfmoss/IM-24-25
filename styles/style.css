@@ -21,24 +21,40 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: rgb(238, 236, 236);
+    
 
     }
-    #main_start ul{
+    #main_start{
         display: flex;
         list-style: none;
         justify-content: space-between;
-
-
-    }
-    #main_start ul li{
-        padding-left: 0.5rem;
-    }
-    #main_start input{
-        border: olivedrab 2px solid;
+        align-items: center;
 
     }
+    .main_logo_codeMe{
+        width: 50%;
+    }
+    .main-off-screen-menu{
+        background-color: rgb(34, 37, 49);
+        height: 100hv;
+        width:100%;
+        max-width: 450px;
+        position: fixed;
+        top:0;
+        right:-450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 3rem;
+        transition:.3s ease;
 
+    }
+    .main-off-screen-menu.active{
+        right: 0;
+        color: white;
+
+    }
     .main_header #logo{
         padding-left: 1rem;
 
