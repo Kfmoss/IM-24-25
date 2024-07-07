@@ -346,19 +346,19 @@
         font-size: 3rem;
         transition:.3s ease;
 
-
     }
-    .imsk-off-screen-menu ul{
-        list-style: none;
-        list-style-type: none;
+    .imsk-off-screen-menu #menu4 a{
+      text-decoration: none;
+      color:#ffff;
     }
     .imsk-off-screen-menu.active{
         right: 0;
         color: white;
 
     }
-    .imsk-off-screen-menu.active ul{
-        list-style: none;
+    .imsk-off-screen-menu.active #menu4 a{
+        text-decoration: none;
+        color: #ffff;
     }
     .imskole_codeMe{
         width: 50%;
