@@ -13,20 +13,21 @@ document.addEventListener('click',(e) =>{
     }
     
 } )
+const op3 = document.querySelector('.op3');
+const op3_list = document.querySelector('.oppgave3');
+op3.addEventListener('click', ()=>{
+    if (op3_list.style.display !='block'){
+        op3_list.style.display ='block';
+        
+    }
+})
+document.addEventListener('click', (ex)=>{
+    if(!op3_list.contains(ex.target)&& !op3.contains(ex.target)){
+        op3_list.style.display ='none';
 
+    }
+})
 
-// function menuMain(){
-//     const menu = document.getElementById("block_menu");
-//     if(menu.style.display !='block'){
-//         menu.style.display = 'block';
-//     }
-//     else{
-//         menu.style.display= 'none';
-       
-//     }
-    
-
-// };
 function menuOppgave1(){
     const menu = document.getElementById("oppgave1");
     if(menu.style.display !='block'){
