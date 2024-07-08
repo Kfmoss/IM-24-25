@@ -15,18 +15,18 @@ document.addEventListener('click',(e) =>{
 } )
 
 
-function menuMain(){
-    const menu = document.getElementById("block_menu");
-    if(menu.style.display !='block'){
-        menu.style.display = 'block';
-    }
-    else{
-        menu.style.display= 'none';
+// function menuMain(){
+//     const menu = document.getElementById("block_menu");
+//     if(menu.style.display !='block'){
+//         menu.style.display = 'block';
+//     }
+//     else{
+//         menu.style.display= 'none';
        
-    }
+//     }
     
 
-};
+// };
 function menuOppgave1(){
     const menu = document.getElementById("oppgave1");
     if(menu.style.display !='block'){

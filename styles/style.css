@@ -83,6 +83,7 @@
 
 
 
+
     /* .main_header #logo #block_menu{
         display: none;
         z-index: 1;
@@ -208,12 +209,11 @@
         display: flexbox;
         justify-content: center;
     }
-    .p3 p{
-        text-align: center;
-        font-size: 1.1rem;
-
-    
+    .p3 img{
+        width: 100%;
+        height: auto;
     }
+
     
     .p4{
         grid-area: p4;
