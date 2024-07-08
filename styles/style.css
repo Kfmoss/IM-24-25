@@ -47,17 +47,27 @@
         transition:.3s ease;
 
     }
+    .main-off-screen-menu span{
+        padding-top: 1.2rem;
+    }
     .main-off-screen-menu a{
         text-decoration: none;
         color:#ffff;
+       
 
     }
     .main-off-screen-menu.active{
         right: 0;
     }
+    .main-off-screen-menu.active span{
+        padding-top: 1.2rem;
+
+    }
+
     .main-off-screen-menu.active a{
         text-decoration: none;
         color:#ffff;
+        
     }
     .main_header #logo{
         padding-left: 1rem;
