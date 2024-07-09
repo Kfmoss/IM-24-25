@@ -21,6 +21,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding-bottom: .5rem;
     }
     #main_start{
         display: flex;
@@ -162,7 +163,7 @@
 
     .footer{
         grid-area: footer;
-        background-color: rgb(33, 165, 218);
+        background-color: rgb(19, 59, 236);
     }
     .footer .media .links{
         list-style: none;
@@ -182,8 +183,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color:rgb(49, 48, 48);
 
+    }
+    .footer .last p{
+        color:#ffff;
+        font-weight: 600;
     }
 
     .p2{
