@@ -81,8 +81,24 @@
 
     .aside1{
         grid-area: aside1;
-        background-color: #e4edf5;
+        /* background-color: #e4edf5; */
     }
+    .aside1 #sites_lan li{
+        padding: 0.4rem;
+
+    }
+
+    .aside1 #sites_lan li a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        border-radius: 10%;
+        background-color:#DD761C;
+
+    }
+    
     .aside1 .aside_menu{
         display: flex;
         flex-direction: column;
@@ -101,14 +117,22 @@
         padding-left: 50%;
         text-align: center;
     }
+    .aside1 .aside_menu #oppgaver li{
+        padding-top: 0.4rem;
+       
+    }
+
 
     .aside1 .aside_menu #oppgaver li a{
         text-decoration: none;
-        color: rgb(10, 10, 10);
+        color:#ffff;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 1em;
+        border: #536753 1px solid;
+        border-radius: 10%;
+        background-color:#174d7c;
     }
     .aside1 .aside_menu #oppgaver li a:hover{
         background-color: rgb(73, 69, 69);
@@ -246,10 +270,6 @@
         font-weight: 400;
         font-size: 1.2rem;
     }
-    .oppgave2 li a:hover{
-        background-color: rgb(19, 59, 236);
-        color:#ffff;
-    }
     .oppgave3{
         display: none;
         z-index: 1;
@@ -290,10 +310,6 @@
         font-size: 1.2rem;
         
     }
-    .oppgave4 li a:hover{
-        background-color: rgb(19, 59, 236);
-        color:#ffff;
-    }
     .oppgave5{
         display: none;
         z-index: 1;
@@ -313,10 +329,7 @@
         font-weight: 400;
         font-size: 1.2rem;
     }
-    .oppgave5 li a:hover{
-        background-color: rgb(19, 59, 236);
-        color:#ffff;
-    }
+
     /* IM-skole mobile -------------------------------------------------------------- */
     .imskole-container{
 
