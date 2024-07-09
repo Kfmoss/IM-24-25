@@ -201,7 +201,7 @@
         text-align: center;
         font-size: 1.1rem;
     }
-    #oppgave1{
+    .oppgave1{
         display: none;
         z-index: 1;
         position:absolute;
@@ -213,22 +213,22 @@
         top: 24em;
         border-radius: 10px;
     }
-    #oppgave1 li{
+    .oppgave1 li{
         padding: 0.4rem;
     }
-    #oppgave1 li a{
+    .oppgave1 li a{
         text-decoration: none;
         color:rgb(250, 249, 249);
         font-weight: 400;
         font-size: 1.2rem;
     }
-    #oppgave1 li a:hover{
+    .oppgave1 li a:hover{
         
         
         background-color: rgb(250, 248, 248);
         color:rgb(3, 3, 3);
     }
-    #oppgave2{
+    .oppgave2{
         display: none;
         z-index: 1;
         position:absolute;
@@ -240,13 +240,13 @@
         top: 24em;
         border-radius: 10px;
     }
-    #oppgave2 li a{
+    .oppgave2 li a{
         text-decoration: none;
         color:rgb(250, 249, 249);
         font-weight: 400;
         font-size: 1.2rem;
     }
-    #oppgave2 li a:hover{
+    .oppgave2 li a:hover{
         background-color: rgb(19, 59, 236);
         color:#ffff;
     }
@@ -263,17 +263,14 @@
         border-radius: 10px;
 
     }
-    #oppgave3 li a{
+    .oppgave3 li a{
         text-decoration: none;
         color:rgb(250, 249, 249);
         font-weight: 400;
         font-size: 1.2rem;
     }
-    #oppgave3 li a:hover{
-        background-color: rgb(19, 59, 236);
-        color:#ffff;
-    }
-    #oppgave4{
+  
+    .oppgave4{
         display: none;
         z-index: 1;
         position:absolute;
@@ -286,18 +283,18 @@
         border-radius: 10px;
 
     }
-    #oppgave4 li a{
+    .oppgave4 li a{
         text-decoration: none;
         color:rgb(250, 249, 249);
         font-weight: 400;
         font-size: 1.2rem;
         
     }
-    #oppgave4 li a:hover{
+    .oppgave4 li a:hover{
         background-color: rgb(19, 59, 236);
         color:#ffff;
     }
-    #oppgave5{
+    .oppgave5{
         display: none;
         z-index: 1;
         position:absolute;
@@ -310,13 +307,13 @@
         border-radius: 10px;
 
     }
-    #oppgave5 li a{
+    .oppgave5 li a{
         text-decoration: none;
         color:rgb(250, 249, 249);
         font-weight: 400;
         font-size: 1.2rem;
     }
-    #oppgave5 li a:hover{
+    .oppgave5 li a:hover{
         background-color: rgb(19, 59, 236);
         color:#ffff;
     }
