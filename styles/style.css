@@ -85,7 +85,7 @@
         /* background-color: #e4edf5; */
     }
     .aside1 #sites_lan li{
-        padding: 0.4rem;
+        padding: 0 .4rem .4rem 0;
 
     }
 
