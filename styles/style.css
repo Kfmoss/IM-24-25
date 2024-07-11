@@ -100,6 +100,15 @@
         background-color:#DD761C;
 
     }
+    .aside1 #sites_lan #l1{
+        background-color: #174d7c;
+        color: #ffff;
+        font-weight: 600;
+    } 
+    .aside1 #sites_lan #op1{
+        font-weight: 600;
+
+    }
     
     .aside1 .aside_menu{
         display: flex;
