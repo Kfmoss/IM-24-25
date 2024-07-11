@@ -183,6 +183,7 @@
     .footer .last p{
         color:#ffff;
         font-weight: 600;
+        text-align: center;
     }
 
     .p2{
@@ -419,8 +420,12 @@
         font-size: 1.2rem;
         
     }
-    .intro-IMskole h3, p{
+    .intro-IMskole h3{
         text-align: center;
+    }
+    .intro-IMskole p{
+        /* text-align: center; */
+        text-wrap: wrap;
     }
     .imsk_body_img{
         display: flex;
@@ -457,7 +462,31 @@
        color: #ffff;
        padding: 0.5rem;
     }
+  /* ---------------------min side mobile-------------------------- */
+
+
+  .min_sideContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas:
+    "minSide_header"
+    "minSide_body"
+    "Minside_footer";
+  }
+  .minSide_header{
+    grid-area: minSide_header;
+
+  }
   
+
+
+
+
+
+
+
+
  
 
 
