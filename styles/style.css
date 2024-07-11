@@ -233,7 +233,7 @@
     .oppgave1 li a{
         text-decoration: none;
         color:rgb(250, 249, 249);
-        font-weight: 400;
+        font-weight: 600;
         font-size: 1.4rem;
     }
 
@@ -244,16 +244,19 @@
         list-style: none;
         background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
-        width: 45%;
+        width: 50%;
         left: 9em;
-        top: 24em;
+        top: 22em;
         border-radius: 10px;
+    }
+    .oppgave2 li{
+        padding: 0.4rem 0 .4rem 0;
     }
     .oppgave2 li a{
         text-decoration: none;
         color:rgb(250, 249, 249);
-        font-weight: 400;
-        font-size: 1.2rem;
+        font-weight: 600;
+        font-size: 1.4rem;
     }
     .oppgave3{
         display: none;
@@ -262,16 +265,19 @@
         list-style: none;
         background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
-        width: 45%;
+        width: 50%;
         left: 9em;
-        top: 24em;
+        top: 26em;
         border-radius: 10px;
 
+    }
+    .oppgave3 li{
+        padding: 0.4rem 0 .4rem 0;
     }
     .oppgave3 li a{
         text-decoration: none;
         color:rgb(250, 249, 249);
-        font-weight: 400;
+        font-weight: 600;
         font-size: 1.2rem;
     }
   
@@ -282,18 +288,21 @@
         list-style: none;
         background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
-        width: 45%;
+        width: 50%;
         left: 9em;
-        top: 24em;
+        top: 26em;
         border-radius: 10px;
-
     }
     .oppgave4 li a{
         text-decoration: none;
         color:rgb(250, 249, 249);
-        font-weight: 400;
+        font-weight: 600;
         font-size: 1.2rem;
+
         
+    }
+    .oppgave4 li{
+        padding: 0.4rem 0 .4rem 0;
     }
     .oppgave5{
         display: none;
