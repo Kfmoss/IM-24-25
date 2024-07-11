@@ -187,6 +187,7 @@
 
     .p2{
         grid-area: p2;
+        padding-top:1rem;
     }
     .p2 .bkg-video{
         
