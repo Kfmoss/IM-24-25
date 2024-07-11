@@ -224,11 +224,11 @@
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
         width: 50%;
         left: 9em;
-        top: 24em;
+        top: 19em;
         border-radius: 10px;
     }
     .oppgave1 li{
-        padding: 0.4rem;
+        padding: 0.4rem 0 .4rem 0;
     }
     .oppgave1 li a{
         text-decoration: none;
@@ -236,12 +236,7 @@
         font-weight: 400;
         font-size: 1.4rem;
     }
-    .oppgave1 li a:hover{
-        
-        
-        background-color: rgb(250, 248, 248);
-        color:rgb(3, 3, 3);
-    }
+
     .oppgave2{
         display: none;
         z-index: 1;
