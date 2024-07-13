@@ -516,6 +516,17 @@
         text-decoration: none;
         color: #ffff;
     }
+    .minSide_body{
+        grid-area:minSide_body ;
+    }
+    .minSide_body.innlogging{
+        display: flex;
+
+    }
+    .minSide_footer{
+        grid-area: Minside_footer;
+    }
+
 
 
 
