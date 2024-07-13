@@ -465,20 +465,58 @@
   /* ---------------------min side mobile-------------------------- */
 
 
-  .min_sideContainer{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3,auto);
-    grid-template-areas:
-    "minSide_header"
-    "minSide_body"
-    "Minside_footer";
-  }
-  .minSide_header{
-    grid-area: minSide_header;
+    .min_sideContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,auto);
+        grid-template-areas:
+        "minSide_header"
+        "minSide_body"
+        "Minside_footer";
+    }
+    .minSide_header{
+        grid-area:minSide_header;
 
-  }
-  
+    }
+    .minSide_header .minSide_menu{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .minSide_header .minSide_menu img{
+        width: 50%;
+    }
+    .minSide-off-screen-menu{
+        background-color: rgb(34, 37, 49);
+        height: 100hv;
+        width:100%;
+        max-width: 450px;
+        position: fixed;
+        top:0;
+        right:-450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 3rem;
+        transition:.3s ease;
+
+    }
+    .minSide-off-screen-menu a{
+        text-decoration: none;
+        color:#ffff;
+    }
+
+    .minSide-off-screen-menu.active{
+        right: 0;
+        color:#ffff;
+    }
+    .minSide-off-screen-menu.active a{
+        text-decoration: none;
+        color: #ffff;
+    }
+
 
 
 
