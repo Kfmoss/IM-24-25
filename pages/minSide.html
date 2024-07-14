@@ -20,7 +20,7 @@
             <nav class="minSide_menu">
                 <img src="/img/logo1.png" alt="">
                 <div class="minSide_btnmenu">
-                    <i class="fa-solid fa-bars fa-2xl" class="imsk_btnmenu"></i>
+                    <i class="fa-solid fa-bars fa-2xl" id="minSide_btn_menu" ></i>
 
                 </div>
                 
@@ -32,28 +32,34 @@
                 logg inn Min side
             </h3>
             <div class="innlogging">
-                <form action="">
-                    <div>
-                        <input type="text">
+                <form action="#" class="login_form">
+                    <label for="navn">Navn</label>
+                    <div class="form_name">
+                        <input type="text" id="navn">
                         <button>name</button>
                     </div>
-                    <div>
-                        <input type="text">
-                        <button>password</button>
+                    <label for="passord">Passord</label>
+                    <div class="form_pass">
+                        <input type="text"  id="passord">
+                        <button>passord</button>
+                        <h4><a href="#">glemte passord?</a></h4>
 
                     </div>
                 </form>
-                <h4><a href="">glemte passord?</a></h4>
 
             </div>
 
         </section>
         <footer class="minSide_footer">
             <div class="minSide_footer_icons">
+                <div class="logos">
+                    
+                                    <a href="https://www.facebook.com/AssidenVideregaendeSkoleMk"><i class="fa-brands fa-facebook fa-2xl" id="logoFooter"></i></a>
+                                    <a href="https://www.instagram.com/imavgs/"><i class="fa-brands fa-instagram fa-2xl" id="logoFooter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-x-twitter fa-2xl" id="logoFooter"></i></a>
 
-                <a href="https://www.facebook.com/AssidenVideregaendeSkoleMk"><i class="fa-brands fa-facebook fa-2xl"></i></a>
-                <a href="https://www.instagram.com/imavgs/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
+                </div>
+                <p id="sign_footer">IM - Informasjonsteknologi og mediekommunikasjon Åssiden VGS</p>
                
 
             </div>

@@ -473,6 +473,8 @@
         "minSide_header"
         "minSide_body"
         "Minside_footer";
+        box-sizing: border-box;
+      
     }
     .minSide_header{
         grid-area:minSide_header;
@@ -519,13 +521,57 @@
     .minSide_body{
         grid-area:minSide_body ;
     }
-    .minSide_body.innlogging{
-        display: flex;
 
-    }
     .minSide_footer{
         grid-area: Minside_footer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(19, 59, 236) ;
     }
+    .innlogging{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .form_name #navn{
+        font-size: 1.4rem;
+    }
+
+    .form_pass #passord{
+        font-size: 1.4rem;
+    }
+ 
+    .minSide_footer{
+        grid-area:Minside_footer;
+
+
+
+    }
+    .minSide_footer_icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1.2rem;
+
+    }
+
+    .minSide_footer_icons #sign_footer{
+        padding:0.3rem;
+        text-align: center;
+        color:#ffff;
+        font-weight: 600;
+
+    }
+    #logoFooter{
+        color: #ffff;
+        padding:0.3rem;
+    }
+
+
 
 
 
