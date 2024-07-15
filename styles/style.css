@@ -1,5 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.grid_mainContainer{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "main_header main_header"
+    "main_aside main_body"
+    "main_footer main_fotter";
+    margin:0.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+.main_header{
+    grid-area: main_header;
+    background-color: rgb(190, 193, 196);
+    position:relative;
+    display: block;
+    height: 100%;
+    padding-right: 5px;
+    right: 0;
+    overflow: hidden;
+}
+.main_header #main_start{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1.5rem;
+   
 
-@media only screen and (max-width:415px){
+}
+.main_header #main_start img{
+    width:20%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:768px){
+    /* tablet og mobiltelefoner */
     body{
         font-family: "Monserrat", sans-serif;
         padding: 0.5rem;
