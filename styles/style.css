@@ -8,7 +8,6 @@
         "main_header main_header"
         "main_aside main_body"
         "main_footer main_footer";
-        margin:0.5rem;
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
     }
@@ -82,16 +81,15 @@
 
     .aside1{
         grid-area:main_aside ;
-        padding: 0 2rem 0 2rem;
         display: flex;
-        justify-content: center;
-        text-align: center;
+        
+        
+ 
     }
     .aside_menu #sites_lan{
         list-style: none;
     }
     .aside_menu #sites_lan li{
-        padding: 0 0 1.5rem 0; 
         box-sizing: content-box;
         width: 100%;
         border: solid #5B6DCD 10px;
@@ -102,6 +100,9 @@
         color:black;
         font-size: 1.7rem;
         font-weight: 700;
+    }
+    .aside_menu #sites_lan li i{
+        color: black;
     }
     .main_body{
         grid-area:main_body ;
@@ -129,7 +130,7 @@
         aspect-ratio: 1/1;
     }
     .p4{
-        padding: 0 9.5rem 0 0;
+        padding: 0 4.5rem 0 4.5rem;
     }
 
     .p4 .art4 h3{
