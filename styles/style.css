@@ -9,7 +9,7 @@
         "main_aside main_body"
         "main_footer main_footer";
         font-family: "Montserrat", sans-serif;
-        font-optical-sizing: auto;
+        /* font-optical-sizing: auto; */
     }
     .main_header{
         grid-area: main_header;
@@ -81,8 +81,9 @@
 
     .aside1{
         grid-area:main_aside ;
+       
 
-        margin: 0 3rem 0 0;
+        margin: 0 2rem 0 0;
 
     }
     .aside_menu #sites_lan{
