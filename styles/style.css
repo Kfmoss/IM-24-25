@@ -81,17 +81,22 @@
 
     .aside1{
         grid-area:main_aside ;
-       
-
-        margin: 0 2rem 0 0;
-
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width:15rem;
+        gap:10px;
+        padding: 10px; 
     }
     .aside_menu #sites_lan{
         list-style: none;
+       
         
     }
     .aside_menu #sites_lan li{
-        padding: 0 .5rem 1.9rem 0;
+        /* padding: 0 0 2rem 0; */
+        
      
 
     }
@@ -100,12 +105,12 @@
         color:black;
         font-size: 1.7rem;
         font-weight: 700;
-        display: flex;
+     
     }
     .aside_menu #sites_lan li a:hover{
         transition: all .3s ease-out;
         background-color: #e7e5e5;
-        padding:0 4px 0 4px;
+        padding:0 7px 0 7px;
 
         
     }
