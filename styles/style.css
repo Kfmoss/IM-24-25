@@ -88,6 +88,7 @@
         width:15rem;
         gap:10px;
         padding: 10px; 
+    
     }
     .aside_menu #sites_lan{
         list-style: none;
@@ -95,9 +96,19 @@
         
     }
     .aside_menu #sites_lan li{
-        /* padding: 0 0 2rem 0; */
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: .5rem;
+        margin: 1.5em;
+        /* border: 2px solid #e7e5e5; */
         
-     
+
+    }
+    .aside_menu #sites_lan li:hover{
+        transition: all .3s ease-out;
+        background-color: #cfcece;
+        box-shadow: 0 0 0 1rem rgb(179, 171, 160);
 
     }
     .aside_menu #sites_lan li a{
@@ -105,15 +116,8 @@
         color:black;
         font-size: 1.7rem;
         font-weight: 700;
-     
     }
-    .aside_menu #sites_lan li a:hover{
-        transition: all .3s ease-out;
-        background-color: #e7e5e5;
-        padding:0 7px 0 7px;
 
-        
-    }
     .aside_menu #sites_lan li i{
         color: black;
     }
