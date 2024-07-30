@@ -73,20 +73,33 @@ document.addEventListener('click', (ex)=>{
 })
 
 
+if (window.matchMedia('screen and (max-width: 768px)').matches){
+
+    document.addEventListener('scroll', ()=>{
+        const elements = document.getElementById('sites_lan');
+        const scrolling = window.scrollY;
+        const halvsize = window.innerHeight / 2
+        console.log(halvsize);
+        console.log(scrolling);
 
 
+        if(elements){
+           
+            let cos = elements.offsetTop;
+            if(cos ===halvsize){
+                elements.style.width =halvsize;
+            }
+          
+            
 
-
-
-// function menuOppgave1(){
-//     const menu = document.getElementById("oppgave1");
-//     if(menu.style.display !='block'){
-//         menu.style.display = 'block';
-//     }
-//     else{
-//         menu.style.display= 'none';
-       
-//     }
+            console.log(cos);
+        }
+      
+        
+    })
     
+}
 
-// };
+
+
+

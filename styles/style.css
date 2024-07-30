@@ -192,11 +192,12 @@
 }
 
 @media only screen and (max-width:768px){
-    /* tablet og mobiltelefoner */
+    /* tablet og mobiltelefoner ------------------------------------------------------------------------------ */
     body{
         font-family: "Monserrat", sans-serif;
         padding: 0.5rem;
         margin: 0.3rem;
+        scroll-behavior: smooth;
     }
     .grid_mainContainer{
         display: grid;
@@ -280,7 +281,13 @@
     .aside1 #sites_lan li{
         padding: 0 .4rem .4rem 0;
 
+
     }
+    /* .aside1 #sites_lan{
+        margin:50vh 0;
+
+    } */
+
 
     .aside1 #sites_lan li a{
         text-decoration: none;
@@ -299,8 +306,9 @@
         font-weight: 600;
     } 
     .aside1 #sites_lan #op1{
+        background-color: #174d7c;
+        color: #ffff;
         font-weight: 600;
-
     }
     
     .aside1 .aside_menu{
