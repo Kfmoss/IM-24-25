@@ -73,35 +73,41 @@ document.addEventListener('click', (ex)=>{
 })
 
 
-if (window.matchMedia('screen and (max-width: 768px)').matches){
+// if (window.matchMedia('screen and (max-width: 768px)').matches){
 
-    document.addEventListener('scroll', ()=>{
-        const elements = document.getElementById('sites_lan');
-        const scrolling = window.scrollY;
-        const halvsize = window.innerHeight / 2
-        console.log(halvsize);
-        console.log(scrolling);
+//     document.addEventListener('scroll', (e)=>{
+//         const elements = document.getElementById('sites_lan');
+//         const scrolling = window.scrollY;
+//         const halvsize = window.innerHeight / 2
+//         const theValue = scrolling+halvsize;
+//         console.log('this is halfsize '+halvsize);
+//         console.log('this is scrolling ' +scrolling);
+//         if(elements.contains. === theValue){
+//             let otherValue = theValue+5;
+//             elements.style.position ='absolute';
+//             elements.style.top = otherValue;
+
+//         }
 
 
-        if(elements){
+//         if(elements){
            
-            let cos = elements.offsetTop;
-            console.log("this is the value of component" +cos);
-            if(cos ===halvsize){
-                elements.addEventListener('scroll', ()=>{
-                    elements.style.width =halvsize;
-                })
-            }
-          
+//             let cos = elements.offsetTop;
+//             console.log("this is the value of component" +cos);
+//             elements.addEventListener('scroll', ()=>{
+//                 let size = scrolling+halvsize; 
+//                 elements.style.position='absolute';
+//                 elements.style.top=size +'px';
+//             })
             
 
-            console.log(cos);
-        }
+      
+//         }
       
         
-    })
+//     })
     
-}
+// }
 
 
 
