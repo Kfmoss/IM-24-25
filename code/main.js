@@ -86,8 +86,11 @@ if (window.matchMedia('screen and (max-width: 768px)').matches){
         if(elements){
            
             let cos = elements.offsetTop;
+            console.log("this is the value of component" +cos);
             if(cos ===halvsize){
-                elements.style.width =halvsize;
+                elements.addEventListener('scroll', ()=>{
+                    elements.style.width =halvsize;
+                })
             }
           
             
