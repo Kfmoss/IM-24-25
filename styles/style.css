@@ -253,6 +253,7 @@
 
     .main-off-screen-menu.active{
         right: 0;
+       
     }
     .main-off-screen-menu.active span{
         padding-top: 1.2rem;
@@ -307,7 +308,7 @@
     }
     
     .aside1 .aside_menu{
-        position: sticky;
+        position:sticky;
         top: 60px;
         display: flex;
         flex-direction: column;

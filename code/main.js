@@ -1,15 +1,22 @@
 const hamMenu_main = document.querySelector('.main_btnmenu');
 const offscreenMenu_main = document.querySelector('.main-off-screen-menu');
 const backbtn = document.querySelector('.tilbake_main');
+const amenu = document.querySelector('.aside_menu');
 
-hamMenu_main.addEventListener('click', () => {offscreenMenu_main.classList.toggle('active')});
+hamMenu_main.addEventListener('click', () => {
+    offscreenMenu_main.classList.toggle('active');
+    amenu.style.position = 'static';
+
+});
 document.addEventListener('click',(e) =>{
     if(!offscreenMenu_main.contains(e.target)  && !hamMenu_main.contains(e.target)){
         offscreenMenu_main.classList.remove('active');
+        amenu.style.position = 'sticky';
     }
     if(backbtn.contains(e.target)){
         offscreenMenu_main.classList.remove('active');
-
+        amenu.style.position = 'sticky';
+  
     }
     
 } )
@@ -73,41 +80,6 @@ document.addEventListener('click', (ex)=>{
 })
 
 
-// if (window.matchMedia('screen and (max-width: 768px)').matches){
-
-//     document.addEventListener('scroll', (e)=>{
-//         const elements = document.getElementById('sites_lan');
-//         const scrolling = window.scrollY;
-//         const halvsize = window.innerHeight / 2
-//         const theValue = scrolling+halvsize;
-//         console.log('this is halfsize '+halvsize);
-//         console.log('this is scrolling ' +scrolling);
-//         if(elements.contains. === theValue){
-//             let otherValue = theValue+5;
-//             elements.style.position ='absolute';
-//             elements.style.top = otherValue;
-
-//         }
-
-
-//         if(elements){
-           
-//             let cos = elements.offsetTop;
-//             console.log("this is the value of component" +cos);
-//             elements.addEventListener('scroll', ()=>{
-//                 let size = scrolling+halvsize; 
-//                 elements.style.position='absolute';
-//                 elements.style.top=size +'px';
-//             })
-            
-
-      
-//         }
-      
-        
-//     })
-    
-// }
 
 
 
