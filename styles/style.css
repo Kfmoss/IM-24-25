@@ -4,6 +4,10 @@
         scroll-behavior: smooth;
     
     }
+    body{
+        padding-top:8% ;
+    }
+
     *{
         padding: 0;
         margin: 0;
@@ -26,7 +30,12 @@
     }
     .main_header{
         grid-area: main_header;
-        background-color:#e6f1f8 ;
+        /* background-color:#e6f1f8 ; */
+        background-color:rgba(0 ,0,0, .7) ;
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+        top:0;
     }
     .main_header #main_start{
         display: flex;
@@ -85,6 +94,7 @@
         background-color:rgba(10, 10, 10, 0.7);
         padding: 1.5rem;
         z-index: 999;  
+        font-family: "Inconsolata", monospace;
 
         
     }
@@ -97,6 +107,7 @@
         background-color:rgba(10, 10, 10, 0.7);
         padding: 1.5rem;
         z-index: 999;  
+        font-family: "Inconsolata", monospace;
 
     }
         
@@ -109,6 +120,7 @@
         background-color:rgba(10, 10, 10, 0.7);
         padding: 1.5rem;
         z-index: 999;  
+        font-family: "Inconsolata", monospace;
 
     }
      
@@ -119,6 +131,7 @@
         background-color:rgba(10, 10, 10, 0.7);
         padding: 1.5rem;
         z-index: 999;  
+        font-family: "Inconsolata", monospace;
 
     }
     #oppgave5Menu .oppgave5{
@@ -128,6 +141,7 @@
         background-color:rgba(10, 10, 10, 0.7);
         padding: 1.5rem;
         z-index: 999;  
+        font-family: "Inconsolata", monospace;
 
     }
 
