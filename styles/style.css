@@ -263,10 +263,18 @@
 
 
     .p4{
+        margin: 5% 0 5% 0;
         padding: 2.5rem 12% 2.5rem 12%;
         display: flex;
         justify-content: center;
+        
+        background-color:#98a4e7;
 
+    }
+    .p4 .art4{
+        border: 2px solid #cfcece;
+        background-color: #ffff;
+        padding: 5%;
     }
 
     .p4 .art4 h3{
