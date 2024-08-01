@@ -4,6 +4,7 @@ const backbtn = document.querySelector('.tilbake_main');
 const amenu = document.querySelector('.aside_menu');
 
 
+
 hamMenu_main.addEventListener('click', () => {
     offscreenMenu_main.classList.toggle('active');
     amenu.style.position = 'static';
@@ -21,6 +22,8 @@ document.addEventListener('click',(e) =>{
     }
     
 } )
+
+const test = document.querySelector('#oppgave1Menu');
 const op3 = document.querySelector('.op3');
 const op3_list = document.querySelector('.oppgave3');
 const op1 = document.querySelector('.op1');
@@ -35,6 +38,8 @@ const op5_list = document.querySelector('.oppgave5');
 op3.addEventListener('click', ()=>{
     if (op3_list.style.display !='block'){
         op3_list.style.display ='block';
+        let mw = bh.getBoundingClientRect();
+        op3_list.style.top =mw.top+'px';
         
         
     }
@@ -42,25 +47,39 @@ op3.addEventListener('click', ()=>{
 op1.addEventListener('click', ()=>{
     if (op1_list.style.display !='block'){
         op1_list.style.display ='block';
-        op
-        
+        if(test){
+            console.log('please');
+            
+            let mw = op1.getBoundingClientRect();
+            console.log((mw.top*-1)/2);
+            op1_list.style.top =mw.top+'px';
+        }
     }
 })
 op2.addEventListener('click', ()=>{
     if (op2_list.style.display !='block'){
         op2_list.style.display ='block';
+        let mw = op2.getBoundingClientRect();
+        op2_list.style.top =mw.top+'px';
+
+        
         
     }
 })
 op4.addEventListener('click', ()=>{
     if (op4_list.style.display !='block'){
         op4_list.style.display ='block';
+ 
+        let mw = op4.getBoundingClientRect();
+        op4_list.style.top =mw.top+'px';
         
     }
 })
 op5.addEventListener('click', ()=>{
     if (op5_list.style.display !='block'){
         op5_list.style.display ='block';
+        let mw = op5.getBoundingClientRect();
+        op5_list.style.top =mw.top+'px';
         
     }
 })
