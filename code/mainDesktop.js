@@ -11,11 +11,11 @@ hamMenu_main.addEventListener('click', () => {
 document.addEventListener('click',(e) =>{
     if(!offscreenMenu_main.contains(e.target)  && !hamMenu_main.contains(e.target)){
         offscreenMenu_main.classList.remove('active');
-        amenu.style.position = 'sticky';
+        
     }
     if(backbtn.contains(e.target)){
         offscreenMenu_main.classList.remove('active');
-        amenu.style.position = 'sticky';
+        
   
     }
     
@@ -34,6 +34,7 @@ const op5_list = document.querySelector('.oppgave5');
 op3.addEventListener('click', ()=>{
     if (op3_list.style.display !='block'){
         op3_list.style.display ='block';
+        
         
         
     }
