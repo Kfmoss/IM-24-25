@@ -1,8 +1,14 @@
 
 @media only screen and (min-width:769px){
+    html{
+        scroll-behavior: smooth;
+    
+    }
     *{
         padding: 0;
         margin: 0;
+
+    
     /* Remove the extra closing curly brace */
     /* pc screen */
     .grid_mainContainer{
@@ -16,10 +22,11 @@
         font-family: "Montserrat", sans-serif;
         /* font-optical-sizing: auto; */
         margin: .2rem;
+       
     }
     .main_header{
         grid-area: main_header;
-        background-color:#e7e5e5 ;
+        background-color:#e6f1f8 ;
     }
     .main_header #main_start{
         display: flex;
@@ -67,14 +74,19 @@
         color:#ffff;
         
     }
+    #oppgave1Menu{
+        scroll-behavior: smooth;
+
+    }
     #oppgave1Menu .oppgave1{
         display: none;
         list-style: none;
         position:fixed;
-        background-color: #8e8f8e;
-        border: 1px solid #174d7c;
+        background-color:rgba(107, 109, 206, 0.8);
         padding: 1.5rem;
-        float: left;
+        z-index: 999;  
+
+        
     }
 
    
@@ -82,10 +94,9 @@
         display: none;
         list-style: none;
         position: fixed;
-        background-color: #8e8f8e;
-        border: 1px solid #174d7c;
+        background-color:rgba(107, 109, 206, 0.7);
         padding: 1.5rem;
-        float: left;
+        z-index: 999;
     }
         
       
@@ -94,29 +105,26 @@
         display: none;
         list-style: none;
         position: fixed;
-        background-color: #8e8f8e;
-        border: 1px solid #174d7c;
+        background-color:rgba(107, 109, 206, 0.7);
         padding: 1.5rem;
-        float: left;
+        z-index: 999;
     }
      
     #oppgave4Menu .oppgave4{
         display: none;
         list-style: none;
         position: fixed;
-        background-color: #8e8f8e;
-        border: 1px solid #174d7c;
+        background-color:rgba(107, 109, 206, 0.7);
         padding: 1.5rem;
-        float: left;
+        z-index: 999;
     }
     #oppgave5Menu .oppgave5{
         display: none;
         list-style: none;
         position: fixed;
-        background-color: #8e8f8e;
-        border: 1px solid #174d7c;
+        background-color:rgba(107, 109, 206, 0.7);
         padding: 1.5rem;
-        float: left;
+        z-index: 999;
     }
 
     .oppgave1 a{
@@ -256,7 +264,7 @@
     .footer{
         grid-area:main_footer ;
         padding: 1.125rem 0 1.125rem 0;
-        background-color:#e7e5e5 ;
+        background-color:#e6f1f8
     }
     .footer .media .links{
         text-decoration: none;
@@ -283,6 +291,10 @@
 
 @media only screen and (max-width:768px){
     /* tablet og mobiltelefoner ------------------------------------------------------------------------------ */
+    html{
+        scroll-behavior: smooth;
+    
+    }
     body{
         font-family: "Monserrat", sans-serif;
         padding: 0.5rem;

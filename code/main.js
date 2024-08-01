@@ -3,6 +3,7 @@ const offscreenMenu_main = document.querySelector('.main-off-screen-menu');
 const backbtn = document.querySelector('.tilbake_main');
 const amenu = document.querySelector('.aside_menu');
 
+
 hamMenu_main.addEventListener('click', () => {
     offscreenMenu_main.classList.toggle('active');
     amenu.style.position = 'static';
@@ -41,6 +42,7 @@ op3.addEventListener('click', ()=>{
 op1.addEventListener('click', ()=>{
     if (op1_list.style.display !='block'){
         op1_list.style.display ='block';
+        op
         
     }
 })
