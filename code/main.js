@@ -51,7 +51,7 @@ op1.addEventListener('click', ()=>{
         let mw = op1.getBoundingClientRect();
         console.log(mw.bottom);
         op1_list.style.top =mw.top+'px';
-        op1_list.style.left ='25%';
+        op1_list.style.left ='15%';
         
     }
 })
@@ -60,7 +60,7 @@ op2.addEventListener('click', ()=>{
         op2_list.style.display ='block';
         let mw = op1.getBoundingClientRect();
         op2_list.style.top =mw.top+'px';
-        op2_list.style.left ='25%';
+        op2_list.style.left ='15%';
     }
 })
 op4.addEventListener('click', ()=>{
@@ -69,7 +69,7 @@ op4.addEventListener('click', ()=>{
  
         let mw = op1.getBoundingClientRect();
         op4_list.style.top =mw.top+'px';
-        op4_list.style.left ='25%';
+        op4_list.style.left ='15%';
         
     }
 })
@@ -78,7 +78,7 @@ op5.addEventListener('click', ()=>{
         op5_list.style.display ='block';
         let mw = op1.getBoundingClientRect();
         op5_list.style.top =mw.top+'px';
-        op5_list.style.left ='25%';
+        op5_list.style.left ='15%';
         
     }
 })
