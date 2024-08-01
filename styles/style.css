@@ -93,10 +93,11 @@
     #oppgave2Menu .oppgave2{
         display: none;
         list-style: none;
-        position: fixed;
-        background-color:rgba(107, 109, 206, 0.7);
+        position:fixed;
+        background-color:rgba(10, 10, 10, 0.7);
         padding: 1.5rem;
-        z-index: 999;
+        z-index: 999;  
+
     }
         
       
@@ -104,27 +105,30 @@
     #oppgave3Menu .oppgave3{
         display: none;
         list-style: none;
-        position: fixed;
-        background-color:rgba(107, 109, 206, 0.7);
+        position:fixed;
+        background-color:rgba(10, 10, 10, 0.7);
         padding: 1.5rem;
-        z-index: 999;
+        z-index: 999;  
+
     }
      
     #oppgave4Menu .oppgave4{
         display: none;
         list-style: none;
-        position: fixed;
-        background-color:rgba(107, 109, 206, 0.7);
+        position:fixed;
+        background-color:rgba(10, 10, 10, 0.7);
         padding: 1.5rem;
-        z-index: 999;
+        z-index: 999;  
+
     }
     #oppgave5Menu .oppgave5{
         display: none;
         list-style: none;
-        position: fixed;
-        background-color:rgba(107, 109, 206, 0.7);
+        position:fixed;
+        background-color:rgba(10, 10, 10, 0.7);
         padding: 1.5rem;
-        z-index: 999;
+        z-index: 999;  
+
     }
 
     .oppgave1 a{
@@ -139,35 +143,46 @@
         transition: all .3s ease;
     }
     .oppgave2 a{
-        color:black;
+        color:rgb(248, 246, 246);
         text-decoration: none;
         font-size: 1.7rem;
         font-weight: 600;
    
     }
     .oppgave2 a:hover{
-        color:#ffff;
-
+        color:#03941b;
         transition: all .3s ease;
     }
     .oppgave3 a{
-        color:black;
+        color:rgb(248, 246, 246);
         text-decoration: none;
         font-size: 1.7rem;
         font-weight: 600;
 
     }
+    .oppgave3 a:hover{
+        color:#03941b;
+        transition: all .3s ease;
+    }
     .oppgave4 a{
-        color:black;
+        color:rgb(248, 246, 246);
         text-decoration: none;
         font-size: 1.7rem;
         font-weight: 600;
     }
+    .oppgave4 a:hover{
+        color:#03941b;
+        transition: all .3s ease;
+    }
     .oppgave5 a{
-        color:black;
+        color:rgb(248, 246, 246);
         text-decoration: none;
         font-size: 1.7rem;
         font-weight: 600;
+    }
+    .oppgave5 a:hover{
+        color:#03941b;
+        transition: all .3s ease;
     }
 
 

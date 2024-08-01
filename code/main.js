@@ -38,8 +38,9 @@ const op5_list = document.querySelector('.oppgave5');
 op3.addEventListener('click', ()=>{
     if (op3_list.style.display !='block'){
         op3_list.style.display ='block';
-        let mw = bh.getBoundingClientRect();
+        let mw = op1.getBoundingClientRect();
         op3_list.style.top =mw.top+'px';
+        op3_list.style.left ='25%';
         
         
     }
@@ -47,39 +48,37 @@ op3.addEventListener('click', ()=>{
 op1.addEventListener('click', ()=>{
     if (op1_list.style.display !='block'){
         op1_list.style.display ='block';
-        if(test){
-            console.log('please');
-            
-            let mw = op1.getBoundingClientRect();
-            console.log((mw.top*-1)/2);
-            op1_list.style.top =mw.top+'px';
-        }
+        let mw = op1.getBoundingClientRect();
+        console.log(mw.bottom);
+        op1_list.style.top =mw.top+'px';
+        op1_list.style.left ='25%';
+        
     }
 })
 op2.addEventListener('click', ()=>{
     if (op2_list.style.display !='block'){
         op2_list.style.display ='block';
-        let mw = op2.getBoundingClientRect();
+        let mw = op1.getBoundingClientRect();
         op2_list.style.top =mw.top+'px';
-
-        
-        
+        op2_list.style.left ='25%';
     }
 })
 op4.addEventListener('click', ()=>{
     if (op4_list.style.display !='block'){
         op4_list.style.display ='block';
  
-        let mw = op4.getBoundingClientRect();
+        let mw = op1.getBoundingClientRect();
         op4_list.style.top =mw.top+'px';
+        op4_list.style.left ='25%';
         
     }
 })
 op5.addEventListener('click', ()=>{
     if (op5_list.style.display !='block'){
         op5_list.style.display ='block';
-        let mw = op5.getBoundingClientRect();
+        let mw = op1.getBoundingClientRect();
         op5_list.style.top =mw.top+'px';
+        op5_list.style.left ='25%';
         
     }
 })
