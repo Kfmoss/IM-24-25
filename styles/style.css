@@ -283,6 +283,7 @@
     }
     .p4 .art4 p{
         font-size: 1.2rem;
+        color: #7e7c7c;
     }
     .footer{
         grid-area:main_footer ;
@@ -300,7 +301,7 @@
     }
     .footer .media .links li a{
         font-size: 1.5rem;
-        color:#ffff;
+        color:#0a0a0a;
     }
     .footer .last{
         padding-top: 1.75rem;
@@ -308,6 +309,7 @@
         text-align: center;
         font-size: 1.5rem;
         font-weight: 500;
+        color: #7e7c7c;
     }
 
 }
