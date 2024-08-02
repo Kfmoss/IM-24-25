@@ -40,7 +40,7 @@ op3.addEventListener('click', ()=>{
         op3_list.style.display ='block';
         let mw = op1.getBoundingClientRect();
         op3_list.style.top =mw.top+'px';
-        op3_list.style.left ='25%';
+        op3_list.style.left ='15%';
         
         
     }
