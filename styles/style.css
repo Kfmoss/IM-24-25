@@ -31,7 +31,7 @@
         grid-area: main_header;
         background-color:rgba(0 ,0,0, .7) ;
         position: fixed;
-        width: 100%;
+        width:100%;
         z-index: 9999;
         top:0;
     }
@@ -54,7 +54,7 @@
         width:100%;
         max-width: 480px;
         position: fixed;
-        top:14%;
+        top:15%;
         right:-480px;
         display: flex;
         flex-direction: column;
