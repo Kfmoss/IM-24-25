@@ -72,6 +72,10 @@
         text-decoration: none;
         color:#ffff;
     }
+    .main-off-screen-menu .closeMenu{
+        color:#ffff;
+    }
+
     .main-off-screen-menu.active{
         right: 0;
     }
