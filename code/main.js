@@ -2,6 +2,8 @@ const hamMenu_main = document.querySelector('.main_btnmenu');
 const offscreenMenu_main = document.querySelector('.main-off-screen-menu');
 const backbtn = document.querySelector('.tilbake_main');
 const amenu = document.querySelector('.aside_menu');
+const closeMenu = document.querySelector('.closeMenu');
+
 
 
 
@@ -15,7 +17,7 @@ document.addEventListener('click',(e) =>{
         offscreenMenu_main.classList.remove('active');
         amenu.style.position = 'sticky';
     }
-    if(backbtn.contains(e.target)){
+    if(backbtn.contains(e.target) || closeMenu.contains(e.target)){
         offscreenMenu_main.classList.remove('active');
         amenu.style.position = 'sticky';
   

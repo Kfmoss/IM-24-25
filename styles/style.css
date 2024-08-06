@@ -58,8 +58,7 @@
         right:-480px;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+
         font-size: 3.5rem;
         transition:.3s ease;
         z-index: 9999;
@@ -67,6 +66,8 @@
     }
     .main-off-screen-menu span{
         padding-top: 1.2rem;
+        align-items: center;
+        text-align: center;
     }
     .main-off-screen-menu a{
         text-decoration: none;
@@ -74,6 +75,9 @@
     }
     .main-off-screen-menu .closeMenu{
         color:#ffff;
+        text-align: left;
+        padding: 1.125rem;
+        
     }
 
     .main-off-screen-menu.active{
@@ -308,10 +312,10 @@
         font-size: 1.2rem;
         color: #7e7c7c;
     }
-    .p4 .kontakt{
+    /* .p4 .kontakt{
         grid-area: kontakt;
         padding-top: 5%;
-    }
+    } */
     .p4 .histo{
         grid-area:histo;
         display: flex;
@@ -324,9 +328,6 @@
         padding: .725rem;
         border: solid 1px #cfcece ;
     }
-    /* .p4 .histo .inst1{
-
-    } */
     .p4 .histo .inst1 p blockquote{
         padding: 1.125rem;
         width: 10rem;
@@ -717,7 +718,7 @@
         font-size: 1.2rem;
 
     }
-    .kontakt{
+    .kart_åssiden{
         display: none;
     }
     .histo{
