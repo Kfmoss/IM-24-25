@@ -29,7 +29,6 @@
     }
     .main_header{
         grid-area: main_header;
-        /* background-color:#e6f1f8 ; */
         background-color:rgba(0 ,0,0, .7) ;
         position: fixed;
         width: 100%;
@@ -47,7 +46,7 @@
     
     }
     .main_header #main_start img{
-        width:20%;
+        width:15%;
     }
     .main-off-screen-menu{
         background-color: rgb(34, 37, 49);
@@ -55,13 +54,13 @@
         width:100%;
         max-width: 480px;
         position: fixed;
-        /* top:1rem; */
+        top:14%;
         right:-480px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        font-size: 3rem;
+        font-size: 3.5rem;
         transition:.3s ease;
     
     }
@@ -311,7 +310,7 @@
     .p4 .histo{
         grid-area:histo;
         display: flex;
-        justify-content: center;
+        justify-content:space-between;
         margin: 1.125rem;
 
 
@@ -320,9 +319,12 @@
         padding: .725rem;
         border: solid 1px #cfcece ;
     }
-    .p4 .histo div p{
+    /* .p4 .histo .inst1{
+
+    } */
+    .p4 .histo .inst1 p blockquote{
         padding: 1.125rem;
-        width: 100%;
+        width: 10rem;
         height: auto;
         aspect-ratio: 2/1 ;
     }
