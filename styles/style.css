@@ -288,6 +288,7 @@
     .p4{
         margin: 5% 0 5% 0;
         padding: 2.5rem 12% 2.5rem 12%;
+        justify-items: center;
         display: grid;
         grid-template-columns: 3fr;
         grid-template-rows: auto;
@@ -317,6 +318,7 @@
         grid-area: kontakt;
         padding-top: 5%;
         padding-bottom: 5%;
+        width: 100%;
     }
     .p4 .kart_åssiden iframe{
         width: 100%;
@@ -337,6 +339,7 @@
         justify-content:space-between;
         flex-direction: row;
     }
+
     .p4 .histo .inst1 p blockquote{
         padding: 1.125rem;
         width: 10rem;
