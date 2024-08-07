@@ -5,8 +5,6 @@ const amenu = document.querySelector('.aside_menu');
 const closeMenu = document.querySelector('.closeMenu');
 
 
-
-
 hamMenu_main.addEventListener('click', () => {
     offscreenMenu_main.classList.toggle('active');
     amenu.style.position = 'static';
