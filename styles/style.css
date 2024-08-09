@@ -20,8 +20,11 @@
         grid-template-columns: 2fr;
         grid-template-rows: auto;
         grid-template-areas: 
-        "main_header main_header"
+        /* "main_header main_header"
         "main_aside main_body"
+        "main_footer main_footer"; */
+        "main_header main_header"
+        "main_body main_body"
         "main_footer main_footer";
         font-family: "Montserrat", sans-serif;
         margin: .2rem;
@@ -48,6 +51,16 @@
     .main_header #main_start img{
         width:15%;
     }
+    .main_header #main_start .menu_opt_main_desk{
+        list-style: none;
+        display: flex;
+    }
+    .main_header #main_start .menu_opt_main_desk li{
+        padding: 1.2rem;
+        color:#ffff;
+        cursor: pointer;
+    }
+
     .main-off-screen-menu{
         background-color: rgb(34, 37, 49);
         height: 100vh;
@@ -208,8 +221,12 @@
         transition: all .3s ease;
     }
 
+    #sites_lan{
+        display: none;
+    }
 
 
+/* 
     .aside1{
         grid-area:main_aside ;
         box-sizing: border-box;
@@ -250,11 +267,16 @@
 
     .aside_menu #sites_lan li i{
         color: black;
-    }
+    } */
+
+
+
     .main_body{
         grid-area:main_body ;
         padding:1.2rem 0 0 0;
         display: block;
+        margin-left:20% ;
+        margin-right:20% ;
     }
     .main_body .p2{
         display: flex;
@@ -832,7 +854,9 @@
     .histo{
         display: none;
     }
-
+    #main_start .menu_opt_main_desk{
+        display: none;
+    }
     /* IM-skole mobile -------------------------------------------------------------- */
     .imskole-container{
 
