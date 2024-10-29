@@ -1,9 +1,510 @@
 
-@media only screen and (max-width:415px){
+@media only screen and (min-width:769px){
+    html{
+        scroll-behavior: smooth;
+    
+    }
+    body{
+        padding-top:8% ;
+    }
+
+    *{
+        padding: 0;
+        margin: 0;
+
+    
+    /* Remove the extra closing curly brace */
+    /* pc screen */
+    .grid_mainContainer{
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        /* "main_header main_header"
+        "main_aside main_body"
+        "main_footer main_footer"; */
+        "main_header main_header"
+        "main_body main_body"
+        "main_footer main_footer";
+        font-family: "Montserrat", sans-serif;
+        margin: .2rem;
+       
+    }
+    .main_header{
+        grid-area: main_header;
+        background-color:rgba(0 ,0,0, .7) ;
+        position: fixed;
+        width:100%;
+        z-index: 999;
+        top:0;
+    }
+    .main_btnmenu{
+        color: #ffff;
+    }
+    .main_header #main_start{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 1.5rem;
+    
+    }
+    .main_header #main_start img{
+        width:15%;
+    }
+    .main_header #main_start .menu_opt_main_desk{
+        list-style: none;
+        display: flex;
+    }
+    .main_header #main_start .menu_opt_main_desk li{
+        padding: 1.2rem;
+        color:#ffff;
+        cursor: pointer;
+    }
+
+    .main-off-screen-menu{
+        background-color: rgb(34, 37, 49);
+        height: 100vh;
+        width:100%;
+        max-width: 480px;
+        position: fixed;
+        top:0;
+        right:-480px;
+        display: flex;
+        flex-direction: column;
+        font-size: 3.5rem;
+        transition:.3s ease;
+        z-index: 9999;
+    
+    }
+    .main-off-screen-menu span{
+        padding-top: 1.2rem;
+        align-items: center;
+        text-align: center;
+    }
+    .main-off-screen-menu a{
+        text-decoration: none;
+        color:#ffff;
+    }
+    .main-off-screen-menu .closeMenu{
+        color:#ffff;
+        text-align: left;
+        padding: 1.125rem 0 0 1.125rem;
+        
+    }
+
+    .main-off-screen-menu.active{
+        right: 0;
+    }
+    .main-off-screen-menu.active span{
+        padding-top: 1.2rem;
+    
+    }
+    
+    .main-off-screen-menu.active a{
+        text-decoration: none;
+        color:#ffff;
+        
+    }
+    #oppgave1Menu{
+        scroll-behavior: smooth;
+
+    }
+    #oppgave1Menu .oppgave1{
+        display: none;
+        list-style: none;
+        position:fixed;
+        background-color:rgba(10, 10, 10, 0.7);
+        padding: 1.5rem;
+        z-index: 999;  
+        font-family: "Inconsolata", monospace;
+
+        
+    }
+
+   
+    #oppgave2Menu .oppgave2{
+        display: none;
+        list-style: none;
+        position:fixed;
+        background-color:rgba(10, 10, 10, 0.7);
+        padding: 1.5rem;
+        z-index: 999;  
+        font-family: "Inconsolata", monospace;
+
+    }
+        
+      
+    }
+    #oppgave3Menu .oppgave3{
+        display: none;
+        list-style: none;
+        position:fixed;
+        background-color:rgba(10, 10, 10, 0.7);
+        padding: 1.5rem;
+        z-index: 999;  
+        font-family: "Inconsolata", monospace;
+
+    }
+     
+    #oppgave4Menu .oppgave4{
+        display: none;
+        list-style: none;
+        position:fixed;
+        background-color:rgba(10, 10, 10, 0.7);
+        padding: 1.5rem;
+        z-index: 999;  
+        font-family: "Inconsolata", monospace;
+
+    }
+    #oppgave5Menu .oppgave5{
+        display: none;
+        list-style: none;
+        position:fixed;
+        background-color:rgba(10, 10, 10, 0.7);
+        padding: 1.5rem;
+        z-index: 999;  
+        font-family: "Inconsolata", monospace;
+
+    }
+
+    .oppgave1 a{
+        color:rgb(248, 246, 246);
+        text-decoration: none;
+        font-size: 1.7rem;
+        font-weight: 600;
+
+    }
+    .oppgave1 a:hover{
+        color:#03941b;
+        transition: all .3s ease;
+    }
+    .oppgave2 a{
+        color:rgb(248, 246, 246);
+        text-decoration: none;
+        font-size: 1.7rem;
+        font-weight: 600;
+   
+    }
+    .oppgave2 a:hover{
+        color:#03941b;
+        transition: all .3s ease;
+    }
+    .oppgave3 a{
+        color:rgb(248, 246, 246);
+        text-decoration: none;
+        font-size: 1.7rem;
+        font-weight: 600;
+
+    }
+    .oppgave3 a:hover{
+        color:#03941b;
+        transition: all .3s ease;
+    }
+    .oppgave4 a{
+        color:rgb(248, 246, 246);
+        text-decoration: none;
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    .oppgave4 a:hover{
+        color:#03941b;
+        transition: all .3s ease;
+    }
+    .oppgave5 a{
+        color:rgb(248, 246, 246);
+        text-decoration: none;
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    .oppgave5 a:hover{
+        color:#03941b;
+        transition: all .3s ease;
+    }
+
+    #sites_lan{
+        display: none;
+    }
+
+
+/* 
+    .aside1{
+        grid-area:main_aside ;
+        box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width:15rem;
+        gap:10px;
+        padding: 10px; 
+    
+    }
+
+    .aside_menu #sites_lan{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: 1.25rem;
+    }
+    .aside_menu #sites_lan li{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: .5rem;
+        margin: 1.5em;
+    }
+    .aside_menu #sites_lan li a:hover{
+        text-decoration: solid underline black 2px;
+
+    }
+    .aside_menu #sites_lan li a{
+        text-decoration: none;
+        color:black;
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+
+    .aside_menu #sites_lan li i{
+        color: black;
+    } */
+
+
+
+    .main_body{
+        grid-area:main_body ;
+        padding:1.2rem 0 0 0;
+        display: block;
+        margin-left:20% ;
+        margin-right:20% ;
+    }
+    .main_body .p2{
+        display: flex;
+        justify-content: center;
+    }
+    .main_body .p2 .bkg-video{
+        width: 50%;
+    }
+    .main_body .p3{
+        display: flex;
+        justify-content:center;
+        padding: 0.5rem 0 0 0;
+    }
+    .main_body .p3 span{
+        padding: 0 .5rem;
+        overflow: hidden;
+    }
+    
+    .p3 span img{
+        width: 25em;
+        height: auto;
+        aspect-ratio: 1/1;
+        transition: transform 0.5s ease;
+    }
+    .p3 span img:hover{
+        transform:scale(1.1);
+    }
+
+
+    .p4{
+        margin: 5% 0 5% 0;
+        padding: 2.5rem 12% 2.5rem 12%;
+        justify-items: center;
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "infoIm infoIm infoIm"
+        "histo histo histo"
+        "kontakt kontakt kontakt";
+
+    }
+    .p4 .art4{
+        grid-area: infoIm;
+        border: 2px solid #cfcece;
+        background-color: #ffff;
+        padding: 5%;
+    }
+
+    .p4 .art4 h3{
+        font-size: 1.7rem;
+        padding-bottom:1.125rem ;
+    }
+    .p4 .art4 p{
+        font-size: 1.2rem;
+        color: #7e7c7c;
+    }
+
+    .p4 .kart_åssiden{
+        grid-area: kontakt;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+    }
+    .p4 .kart_åssiden iframe{
+        width: 100%;
+    }
+    .p4 .histo{
+        grid-area:histo;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1.125rem;
+    }
+    .p4 .histo .inst1{
+        padding: .725rem;
+        border: solid 1px #cfcece ;
+    }
+    .p4 .histo .instagram{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: row;
+    }
+
+    .p4 .histo .inst1 p blockquote{
+        padding: 1.125rem;
+        width: 10rem;
+        height: auto;
+        aspect-ratio: 2/1 ;
+    }
+    .video_intro{
+        display: flex;
+        justify-content: center;
+        padding: 5%;     
+        width: 100%;
+    }
+    .video_intro .video_media{
+        margin: 4%;
+        border:solid 5px #cfcece;
+    }
+
+    .footer{
+        grid-area:main_footer ;
+        padding: 1.125rem 0 1.125rem 0;
+        background-color:#7e7c7c;
+    }
+    .footer .media .links{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    .footer .media .links li{
+        padding: .5rem;
+    }
+    .footer .media .links li a{
+        font-size: 1.5rem;
+        color:#0a0a0a;
+    }
+    .footer .last{
+        padding-top: 1.75rem;
+        padding-bottom:1.75rem; ;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #bbb9b9;
+    }
+ /* Desktop IMSkole-------------------------------------------------------------------- */
+    .imskole-container{
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "imskHeader imskHeader imskHeader"
+        "imskmain imskmain imskmain"
+        "imskfooter imskfooter imskfooter"; 
+        font-family: "Montserrat", sans-serif;
+    }
+    .imskole-container .imsk-off-screen-menu{
+        display: none;
+        background-color: rgb(34, 37, 49);
+        height: 100vh;
+        width:100%;
+        max-width: 480px;
+        position: fixed;
+        top:0;
+        right:-480px;
+        display: flex;
+        flex-direction: column;
+        font-size: 3.5rem;
+        transition:.3s ease;
+        z-index: 9999;
+        color:#ffff;
+    } 
+    .imskole-container .imsk-off-screen-menu span{
+        padding-top: 1.2rem;
+        align-items: center;
+        text-align: center;
+
+    }
+    .imskole-container .imsk-off-screen-menu span a{
+        text-decoration: none;
+        color:#ffff;
+    } 
+
+    .header_imsk{
+        grid-area:imskHeader;
+        grid-area: main_header;
+        background-color:rgba(0 ,0,0, .7) ;
+        position: fixed;
+        width:100%;
+        z-index: 999;
+        top:0;
+    }
+    .header_imsk .menu_imsk{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem;
+    }
+    .menu_imsk .imsk_btnmenu{
+        color: #ffff;
+    }
+    .menu_imsk .imskcodeMeimg{
+        width: 15%;
+    }
+    .imsk-off-screen-menu .closeMenu{
+        color:#ffff;
+        text-align: left;
+        padding: 1.125rem 0 0 1.125rem;
+    } 
+    .imsk-off-screen-menu.active{
+        right: 0;
+    }
+    .imsk-off-screen-menu.active span{
+        padding-top: 1.2rem;
+    }
+    .imsk-off-screen-menu.active span a{
+        text-decoration: none;
+        color:#ffff;
+    }
+    .imsk_body{
+        grid-area:imskmain ;
+    }
+    .imsk_footer{
+        grid-area:imskfooter ;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:768px){
+    /* tablet og mobiltelefoner ------------------------------------------------------------------------------ */
+    html{
+        scroll-behavior: smooth;
+    
+    }
     body{
         font-family: "Monserrat", sans-serif;
         padding: 0.5rem;
         margin: 0.3rem;
+        scroll-behavior: smooth;
     }
     .grid_mainContainer{
         display: grid;
@@ -15,30 +516,62 @@
         "aside1 p3 p3"
         "aside1 p4 p4"
         "footer footer footer";
+        
     }
     .main_header{
         grid-area:main_header;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: rgb(238, 236, 236);
-
+        padding-bottom: .5rem;
     }
-    #main_start ul{
+    #main_start{
         display: flex;
         list-style: none;
         justify-content: space-between;
-
+        align-items: center;
+    }
+    .main_logo_codeMe{
+        width: 50%;
+    }
+    .main-off-screen-menu{
+        background-color: rgb(34, 37, 49);
+        height: 100vh;
+        width:100%;
+        max-width: 380px;
+        position: fixed;
+        top:0;
+        right:-380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 3rem;
+        transition:.3s ease;
 
     }
-    #main_start ul li{
-        padding-left: 0.5rem;
+    .main-off-screen-menu span{
+        padding-top: 1.2rem;
     }
-    #main_start input{
-        border: olivedrab 2px solid;
+    .main-off-screen-menu a{
+        text-decoration: none;
+        color:#ffff;
+    }
+
+    .main-off-screen-menu.active{
+        right: 0;
+       
+    }
+    .main-off-screen-menu.active span{
+        padding-top: 1.2rem;
 
     }
 
+    .main-off-screen-menu.active a{
+        text-decoration: none;
+        color:#ffff;
+        
+    }
     .main_header #logo{
         padding-left: 1rem;
 
@@ -48,38 +581,42 @@
         height: auto;
         max-width: 100%;
     }
-    .main_header #logo #block_menu{
-        display: none;
-        z-index: 1;
-        position:absolute;
-        list-style: none;
-        background-color: rgb(121, 119, 119);
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
-        width: 50%;
-        height: auto;
-        aspect-ratio: 1;
-        left: 6em;
-        top: 4em;
 
-    }
-    .main_header #logo #block_menu li a{
-        font-weight: 600;
-        padding: 1rem;
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        color: white;
-    }
-    .main_header #logo #block_menu li a:hover{
-        background-color: rgb(252, 250, 250);
-        color: black;
-    }
     .aside1{
         grid-area: aside1;
-        background-color: #e4edf5;
+       
+       
     }
+    .aside1 #sites_lan li{
+        padding: 0 .4rem .4rem 0;
+
+
+    }
+    .aside1 #sites_lan li a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        border-radius: 10%;
+       
+    }
+
+
+    .aside1 #sites_lan #l1{
+        background-color: #174d7c;
+        color: #ffff;
+        font-weight: 600;
+    } 
+    .aside1 #sites_lan #op1{
+        background-color: #174d7c;
+        color: #ffff;
+        font-weight: 600;
+    }
+    
     .aside1 .aside_menu{
+        position:sticky;
+        top: 60px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -87,38 +624,28 @@
         width: 100%;
 
     }
-    .aside1 .aside_menu #oppgaver{
-       text-align: center;
-       padding-right: 50%;
-       padding-left: 50%;
-    }
+ 
     .aside1 .aside_menu #sites_lan{
         padding-right: 50%;
         padding-left: 50%;
         text-align: center;
     }
 
+
     .aside1 .aside_menu #oppgaver li a{
         text-decoration: none;
-        color: rgb(10, 10, 10);
+        color:#ffff;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 1em;
-    }
-    .aside1 .aside_menu #oppgaver li a:hover{
-        background-color: rgb(73, 69, 69);
-        color: rgb(253, 250, 250);
-    }
-    .aside1 .aside_menu #sites_lan a:hover{
-        background-color: rgb(73, 69, 69);
-        color: rgb(253, 250, 250);
+        border: #536753 1px solid;
+        border-radius: 10%;
+        background-color:#174d7c;
     }
 
-    .aside1 .aside_menu #oppgaver{
-        list-style: none;
 
-    }
+
     .aside1 .aside_menu #sites_lan{
         list-style: none;
     }
@@ -131,14 +658,18 @@
         align-items: center;
     }
 
+
     .footer{
         grid-area: footer;
-        background-color: rgb(33, 165, 218);
+        background-color: rgb(19, 59, 236);
     }
     .footer .media .links{
         list-style: none;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .footer .media .links li{
         padding: 1rem;
     }
     .footer .media .links a{
@@ -153,12 +684,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color:rgb(49, 48, 48);
 
+    }
+    .footer .last p{
+        color:#ffff;
+        font-weight: 600;
+        text-align: center;
     }
 
     .p2{
         grid-area: p2;
+        padding-top:1rem;
     }
     .p2 .bkg-video{
         
@@ -176,12 +712,14 @@
         display: flexbox;
         justify-content: center;
     }
-    .p3 p{
-        text-align: center;
-        font-size: 1.1rem;
-
-    
+    .p3 img{
+        width: 100%;
+        height: auto;
     }
+    .p3 #nomobil{
+        display: none;
+    }
+
     
     .p4{
         grid-area: p4;
@@ -197,71 +735,372 @@
         text-align: center;
         font-size: 1.1rem;
     }
-    #oppgave1{
+    .oppgave1{
         display: none;
         z-index: 1;
         position:absolute;
         list-style: none;
-        background-color: rgb(121, 119, 119);
+        background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
         width: 50%;
-        height: auto;
-        aspect-ratio: 1;
-        left: 6em;
-        top: 4em;
+        left: 9em;
+        top: 19em;
+        border-radius: 10px;
     }
-    #oppgave2{
+    .oppgave1 li{
+        padding: 0.4rem 0 .4rem 0;
+    }
+    .oppgave1 li a{
+        text-decoration: none;
+        color:rgb(250, 249, 249);
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+
+    .oppgave2{
         display: none;
         z-index: 1;
         position:absolute;
         list-style: none;
-        background-color: rgb(121, 119, 119);
+        background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
         width: 50%;
-        height: auto;
-        aspect-ratio: 1;
-        left: 6em;
-        top: 4em;
+        left: 9em;
+        top: 22em;
+        border-radius: 10px;
     }
-    #oppgave3{
+    .oppgave2 li{
+        padding: 0.4rem 0 .4rem 0;
+    }
+    .oppgave2 li a{
+        text-decoration: none;
+        color:rgb(250, 249, 249);
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+    .oppgave3{
         display: none;
         z-index: 1;
         position:absolute;
         list-style: none;
-        background-color: rgb(121, 119, 119);
+        background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
         width: 50%;
-        height: auto;
-        aspect-ratio: 1;
-        left: 6em;
-        top: 4em;
+        left: 9em;
+        top: 26em;
+        border-radius: 10px;
+
     }
-    #oppgave4{
+    .oppgave3 li{
+        padding: 0.4rem 0 .4rem 0;
+    }
+    .oppgave3 li a{
+        text-decoration: none;
+        color:rgb(250, 249, 249);
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+  
+    .oppgave4{
         display: none;
         z-index: 1;
         position:absolute;
         list-style: none;
-        background-color: rgb(121, 119, 119);
+        background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
         width: 50%;
-        height: auto;
-        aspect-ratio: 1;
-        left: 6em;
-        top: 4em;
+        left: 9em;
+        top: 26em;
+        border-radius: 10px;
     }
-    #oppgave5{
+    .oppgave4 li a{
+        text-decoration: none;
+        color:rgb(250, 249, 249);
+        font-weight: 600;
+        font-size: 1.2rem;
+
+        
+    }
+    .oppgave4 li{
+        padding: 0.4rem 0 .4rem 0;
+    }
+    .oppgave5{
         display: none;
         z-index: 1;
         position:absolute;
         list-style: none;
-        background-color: rgb(121, 119, 119);
+        background-color: rgba(74, 74, 75, 0.9);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
         width: 50%;
-        height: auto;
-        aspect-ratio: 1;
-        left: 6em;
-        top: 4em;
+        left: 9em;
+        top: 26em;
+        border-radius: 10px;
+
     }
+    .oppgave5 li{
+        padding: 0.4rem 0 .4rem 0;
+
+    }
+    .oppgave5 li a{
+        text-decoration: none;
+        color:rgb(250, 249, 249);
+        font-weight: 600;
+        font-size: 1.2rem;
+
+    }
+    .kart_åssiden{
+        display: none;
+    }
+    .histo{
+        display: none;
+    }
+    #main_start .menu_opt_main_desk{
+        display: none;
+    }
+    /* IM-skole mobile -------------------------------------------------------------- */
+    .imskole-container{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,auto);
+        grid-template-areas:
+        "imsk_header"
+        "imsk_body"
+        "footer";
+
+    }
+    .header_imsk{
+        grid-area:imsk_header;
+       
+        
+       
+    }
+    .imsk-off-screen-menu{
+        background-color: rgb(34, 37, 49);
+        height: 100hv;
+        width:100%;
+        max-width: 450px;
+        position: fixed;
+        top:0;
+        right:-450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 3rem;
+        transition:.3s ease;
+
+    }
+    .imsk-off-screen-menu #menu4 a{
+      text-decoration: none;
+      color:#ffff;
+    }
+    .imsk-off-screen-menu.active{
+        right: 0;
+        color: white;
+
+    }
+    .imsk-off-screen-menu.active #menu4 a{
+        text-decoration: none;
+        color: #ffff;
+    }
+    .imskcodeMeimg{
+        width: 50%;
+    }
+   
+
+    
+    .menu_imsk{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+
+        
+    }
+    
+    .menu_imsk ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .imsk_body{
+        grid-area:imsk_body;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .intro-IMskole{
+        margin: 0 10% 0 10%;
+        font-family: "Monserrat", sans-serif;
+        font-size: 1.2rem;
+        
+    }
+    .intro-IMskole h3{
+        text-align: center;
+    }
+    .intro-IMskole p{
+        /* text-align: center; */
+        text-wrap: wrap;
+    }
+    .imsk_body_img{
+        display: flex;
+        margin-right: 10%;
+        
+    }
+   
+    .imsk_body_img ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+ 
+    }
+    .imsk_body_img ul li img{
+        width: 100%;
+        height: auto;
+    
+    }
+   
+
+    .imsk_footer{
+        grid-area:footer;
+        background-color: rgb(19, 59, 236) ;
+        padding: 1.2rem;
+
+    }
+    .imsk_footer_icons{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .imsk_footer_icons a{
+       color: #ffff;
+       padding: 0.5rem;
+    }
+  /* ---------------------min side mobile-------------------------- */
+
+
+    .min_sideContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,auto);
+        grid-template-areas:
+        "minSide_header"
+        "minSide_body"
+        "Minside_footer";
+        box-sizing: border-box;
+      
+    }
+    .minSide_header{
+        grid-area:minSide_header;
+
+    }
+    .minSide_header .minSide_menu{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .minSide_header .minSide_menu img{
+        width: 50%;
+    }
+    .minSide-off-screen-menu{
+        background-color: rgb(34, 37, 49);
+        height: 100hv;
+        width:100%;
+        max-width: 450px;
+        position: fixed;
+        top:0;
+        right:-450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 3rem;
+        transition:.3s ease;
+
+    }
+    .minSide-off-screen-menu a{
+        text-decoration: none;
+        color:#ffff;
+    }
+
+    .minSide-off-screen-menu.active{
+        right: 0;
+        color:#ffff;
+    }
+    .minSide-off-screen-menu.active a{
+        text-decoration: none;
+        color: #ffff;
+    }
+    .minSide_body{
+        grid-area:minSide_body ;
+    }
+
+    .minSide_footer{
+        grid-area: Minside_footer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(19, 59, 236) ;
+    }
+    .innlogging{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .form_name #navn{
+        font-size: 1.4rem;
+    }
+
+    .form_pass #passord{
+        font-size: 1.4rem;
+    }
+ 
+    .minSide_footer{
+        grid-area:Minside_footer;
+
+
+
+    }
+    .minSide_footer_icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1.2rem;
+
+    }
+
+    .minSide_footer_icons #sign_footer{
+        padding:0.3rem;
+        text-align: center;
+        color:#ffff;
+        font-weight: 600;
+
+    }
+    #logoFooter{
+        color: #ffff;
+        padding:0.3rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
 
 
