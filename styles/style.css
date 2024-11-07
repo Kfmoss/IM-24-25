@@ -54,12 +54,18 @@
     .main_header #main_start .menu_opt_main_desk{
         list-style: none;
         display: flex;
+        
     }
     .main_header #main_start .menu_opt_main_desk li{
         padding: 1.2rem;
         color:#ffff;
         cursor: pointer;
     }
+    .main_header #main_start .menu_opt_main_desk li span{
+        font-size: 1.125rem;
+        font-weight: 600;
+    }
+
 
     .main-off-screen-menu{
         background-color: rgb(34, 37, 49);
