@@ -20,9 +20,6 @@
         grid-template-columns: 2fr;
         grid-template-rows: auto;
         grid-template-areas: 
-        /* "main_header main_header"
-        "main_aside main_body"
-        "main_footer main_footer"; */
         "main_header main_header"
         "main_body main_body"
         "main_footer main_footer";
@@ -64,6 +61,10 @@
     .main_header #main_start .menu_opt_main_desk li span{
         font-size: 1.125rem;
         font-weight: 600;
+    }
+    .menu_opt_main_desk li span a{
+        text-decoration: none;
+        color: #ffff;
     }
 
 
@@ -231,49 +232,6 @@
         display: none;
     }
 
-
-/* 
-    .aside1{
-        grid-area:main_aside ;
-        box-sizing: border-box;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        width:15rem;
-        gap:10px;
-        padding: 10px; 
-    
-    }
-
-    .aside_menu #sites_lan{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-left: 1.25rem;
-    }
-    .aside_menu #sites_lan li{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        padding: .5rem;
-        margin: 1.5em;
-    }
-    .aside_menu #sites_lan li a:hover{
-        text-decoration: solid underline black 2px;
-
-    }
-    .aside_menu #sites_lan li a{
-        text-decoration: none;
-        color:black;
-        font-size: 1.7rem;
-        font-weight: 700;
-    }
-
-    .aside_menu #sites_lan li i{
-        color: black;
-    } */
 
 
 
