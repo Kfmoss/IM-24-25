@@ -13,16 +13,12 @@
         margin: 0;
 
     
-    /* Remove the extra closing curly brace */
-    /* pc screen */
+
     .grid_mainContainer{
         display: grid;
         grid-template-columns: 2fr;
         grid-template-rows: auto;
         grid-template-areas: 
-        /* "main_header main_header"
-        "main_aside main_body"
-        "main_footer main_footer"; */
         "main_header main_header"
         "main_body main_body"
         "main_footer main_footer";
@@ -32,7 +28,7 @@
     }
     .main_header{
         grid-area: main_header;
-        background-color:rgba(0 ,0,0, .7) ;
+        background-color:rgba(0,0,0, .5) ;
         position: fixed;
         width:100%;
         z-index: 999;
@@ -56,9 +52,12 @@
         display: flex;
     }
     .main_header #main_start .menu_opt_main_desk li{
-        padding: 1.2rem;
-        color:#ffff;
+        padding: 1.125rem;
         cursor: pointer;
+    }
+    .menu_opt_main_desk li a{
+        text-decoration: none;
+        color:#ffff;
     }
 
     .main-off-screen-menu{
@@ -74,8 +73,8 @@
         font-size: 3.5rem;
         transition:.3s ease;
         z-index: 9999;
-    
     }
+
     .main-off-screen-menu span{
         padding-top: 1.2rem;
         align-items: center;
@@ -224,51 +223,6 @@
     #sites_lan{
         display: none;
     }
-
-
-/* 
-    .aside1{
-        grid-area:main_aside ;
-        box-sizing: border-box;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        width:15rem;
-        gap:10px;
-        padding: 10px; 
-    
-    }
-
-    .aside_menu #sites_lan{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-left: 1.25rem;
-    }
-    .aside_menu #sites_lan li{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        padding: .5rem;
-        margin: 1.5em;
-    }
-    .aside_menu #sites_lan li a:hover{
-        text-decoration: solid underline black 2px;
-
-    }
-    .aside_menu #sites_lan li a{
-        text-decoration: none;
-        color:black;
-        font-size: 1.7rem;
-        font-weight: 700;
-    }
-
-    .aside_menu #sites_lan li i{
-        color: black;
-    } */
-
 
 
     .main_body{
@@ -484,6 +438,58 @@
     .imsk_footer{
         grid-area:imskfooter ;
     }
+
+
+    /* erasmus+_desktop------------------------------------------------------------------------------------------ */
+
+    .erasmusContainer{
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "header_erasmus header_erasmus header_erasmus"
+        "erasmusMain erasmusMain erasmusMain"
+        "erasmusFooter erasmusFooter erasmusFooter"; 
+        font-family: "Montserrat", sans-serif;
+    }
+    .header_erasmus{
+        grid-area: header_erasmus;
+        background-color:rgba(0 ,0,0, .7) ;
+        position: fixed;
+        width:100%;
+        z-index: 999;
+        top:0;
+    }
+    .erasmus_start{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu_opt_erasmus{
+        display: flex;
+        list-style: none;
+  
+        align-items: center;
+    }
+    .menu_opt_erasmus a{
+        text-decoration: none;
+        padding: 0 .5rem 0 .5rem;
+        font-size: 1.125rem;
+        color: #ffff;
+
+    }
+    .erasmus_logo_codeMe{
+        width: 15%;
+    }
+    .erasmus_main_btnmenu{
+        color: #ffff;
+
+    }
+
+
+
+
+
 
 
 
